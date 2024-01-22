@@ -1,0 +1,54 @@
+#include<iostream>
+using namespace std;
+
+int sum(int a, int b) {
+    int tong = a + b;
+    return tong;
+}
+int minus1(int a, int b) {
+    int tru = a - b;
+    return tru;
+}
+int multi(int a, int b) {
+    int nhan = a * b;
+    return nhan;
+}
+int divide(int a, int b) {
+    int chia = a / b;
+    return chia;
+}
+
+int main() {
+    int a;
+    int b;
+    cin >> a >> b;
+    int tong;
+    tong = sum(a,b);
+    cout << tong;
+    //sum
+    ___________
+    int a;
+    int b;
+    cin >> a >> b;
+    int tich;
+    tich = multi(a,b);
+    cout << tich;
+    //multi
+    ___________
+    int a;
+    int b;
+    cin >> a >> b;
+    int tru;
+    tru = minus(a,b);
+    cout << tru;
+    //minus
+    ___________
+    int a;
+    int b;
+    cin >> a >> b;
+    int chia;
+    chia = divide(a,b);
+    cout << chia;
+    //divide
+
+}
